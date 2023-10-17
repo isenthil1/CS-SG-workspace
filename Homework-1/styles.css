@@ -1,0 +1,34 @@
+body {
+    background-color: lavender;
+}
+
+.box {
+    align-items: center;
+    border: 2px solid black;
+    margin: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+    
+}
+
+.flex-item {
+    width: 250x;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+}
+
+.flex-item2 {
+    width: 125 px;
+    height: 125 px;
+}
